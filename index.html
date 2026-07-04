@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Một vài lời muốn nói — nhẹ nhàng và chân thành.">
+  <title>Một vài lời muốn nói 💜</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen" aria-live="polite" aria-busy="true">
+    <div class="loading-content">
+      <p class="loading-text">
+        Đang chuẩn bị một vài lời muốn nói<span class="loading-dots" aria-hidden="true"><span>.</span><span>.</span><span>.</span></span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Background Effects Container -->
+  <div id="background-effects" class="background-effects" aria-hidden="true">
+    <div class="bg-gradient"></div>
+    <div id="particles-container" class="particles-container"></div>
+    <div id="stars-container" class="stars-container"></div>
+    <div id="hearts-bg-container" class="hearts-bg-container"></div>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content hidden">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="hero-inner glass-card fade-in-section">
+        <h1 class="hero-title">Hi bé 💜</h1>
+        <p class="hero-subtitle">
+          Anh có vài điều muốn nói với em.<br>
+          Chỉ vài phút thôi, nếu em sẵn sàng đọc thì hãy nhấn vào nút bên dưới nhé.
+        </p>
+        <button id="read-more-btn" class="btn btn-primary ripple-btn" type="button">
+          Đọc tiếp 💜
+        </button>
+      </div>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message" class="message section">
+      <div class="message-inner glass-card fade-in-section">
+        <div id="typewriter-container" class="typewriter-container" aria-live="polite">
+          <!-- Các câu được thêm bằng JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Ending Section -->
+    <section id="ending" class="ending section">
+      <div class="ending-inner glass-card fade-in-section">
+        <p class="ending-line">Nếu em cần thời gian, anh sẽ tôn trọng điều đó.</p>
+        <p class="ending-line">Dù quyết định của em là gì, anh vẫn mong em sẽ luôn vui vẻ.</p>
+        <p class="ending-line ending-highlight">Chỉ mong những ngày tới em sẽ luôn vui vẻ và mỉm cười thật nhiều. 🌷</p>
+        <button id="thank-you-btn" class="btn btn-primary ripple-btn" type="button">
+          Cảm ơn em vì đã đọc 💜
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notification Popup -->
+  <div id="notification" class="notification hidden" role="alert" aria-live="assertive">
+    <p>Cảm ơn em vì đã dành thời gian đọc hết những điều này. Chúc em luôn vui vẻ và có thật nhiều điều tốt đẹp nhé. 💜</p>
+  </div>
+
+  <!-- Effect Layers (hearts & petals on button click) -->
+  <div id="effects-layer" class="effects-layer" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
