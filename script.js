@@ -27,15 +27,14 @@
      ============================================ */
   const LOADING_DURATION = 2500; // 2.5 giây
   const MESSAGE_LINES = [
-    'Dạo này anh cảm giác em có hơi lạnh nhạt với anh một chút.',
-    'Tụi mình không còn nói chuyện nhiều như trước, cũng không còn nhắn tin cho nhau nhiều nữa.',
-    'Anh có hỏi em thì em chỉ nói là em không biết, nên anh nghĩ có lẽ em không muốn nói thẳng với anh lúc này, và anh tôn trọng điều đó.',
-    'Thật sự anh rất lo.',
-    'Anh thật sự rất yêu em và không muốn tụi mình vì những cảm xúc hiện tại mà dần xa nhau rồi không còn tìm hiểu nhau nữa.',
-    'Có lẽ vì tụi mình ở xa nên anh cũng không thể làm được nhiều điều cho em, không thể gặp em thường xuyên hay ở bên em những lúc em mệt.',
+    'Có một vài điều anh suy nghĩ mấy ngày nay, nên anh muốn nói với em một chút.',
+    'Tụi mình vẫn nói chuyện với nhau, chỉ là không còn nhiều như trước nữa. Nhiều lúc anh cũng cảm thấy khoảng cách giữa hai đứa lớn hơn một chút, nên anh hơi lo.',
+    'Khi anh hỏi thì em chỉ nói là em không biết, nên anh nghĩ có thể em đang có những cảm xúc riêng mà chưa biết phải nói thế nào, và anh tôn trọng điều đó.',
+    'Thật lòng mà nói, anh rất trân trọng mối quan hệ của tụi mình và cũng rất nghiêm túc khi tìm hiểu em.',
+    'Có lẽ vì tụi mình ở xa nên anh không thể ở bên em nhiều, không thể gặp em thường xuyên hay làm những điều nhỏ nhặt để khiến em vui hơn.',
     'Nếu thời gian qua anh đã vô tình làm em buồn, làm em mệt hoặc khiến em cảm thấy áp lực thì anh xin lỗi nhé.',
-    'Anh chỉ muốn em biết rằng khoảng thời gian được làm quen và trò chuyện cùng em đối với anh thật sự rất đáng quý.',
-    'Và nếu một ngày em muốn nói chuyện lại như trước, anh vẫn sẽ rất vui.'
+    'Anh chỉ muốn nói ra những điều anh đang nghĩ trong lòng.',
+    'Anh chỉ mong tụi mình vẫn có thể thoải mái với nhau như trước, và quan trọng nhất là em luôn vui vẻ và cảm thấy dễ chịu. 💜'
   ];
   const LINE_DELAY = 2300; // 2.3 giây giữa các câu
   const TYPE_SPEED = 45; // ms mỗi ký tự
